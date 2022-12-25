@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header-all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border: solid 1px transparent;
+}
+
+.phone i{
+    color: black;
+    font-size: 14px;
+    line-height: 3;
+}
+.phone a{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+}
+.email i{
+    color:black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+}
+.email a{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 5rem;
+    margin-top: 1rem;
+}
+.logo img{
+    line-height: 1.75;
+    text-align: left;
+    width: 15%;
+}
+.logo span{
+    font-family: Marcellus,serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .05em;
+    cursor: pointer;
+}
+.nav a{
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    cursor: pointer;
+    color: #8d8d8d;
+}
+.nav i{
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-item h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    font-size: 75px;
+    font-family: serif;
+    font-weight: 400;
+    color: white;
+}
+.carousel-item a{
+    position: absolute;
+    border:solid 3px white;
+    padding: 20px;
+    color: white;
+    bottom: 100px;
+    right: 690px;
+    font-weight: 400;
+    font-family: serif;
+}
+.carousel-item h4{
+    position: absolute;
+    bottom: 190px;
+    right: 400px;
+    color: white;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 25px;
+}
+.name{
+    padding: 2rem;
+    text-align: center;
+}
+.name h1{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+.name span{
+    font-family: serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #c0a483;
+}
+.name3{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/05/banner9.jpg);
+    padding: 5%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin:4rem 0;
+}
+.name3 h1{
+    font-family: serif;
+    font-size:27px;
+    font-weight:400;
+    margin-bottom: 4rem;
+}
+.name3 span{
+    font-family: serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #c0a483;
+}
+.image{
+    background-image: url(https://news.cornell.edu/sites/default/files/styles/story_thumbnail_xlarge/public/2021-10/1007_grapes.jpg?itok=-3YUsn_a);
+    background-position: center;
+    padding: 6%;
+    margin: 3rem 3rem;
+    text-align: center;
+}
+.image h1{
+    font-family: serif;
+    font-size: 27px;
+    font-weight:400;
+    color: whitesmoke;
+}
+.image span{
+    font-family:serif;
+    font-size: 27px;
+    font-weight:400;
+    color: #c0a483;
+}
+.image a{
+    border: solid 2px #c0a483;
+    color: black;
+    background-color:#c0a483;
+    padding: 5px;
+    font-weight: 400;
+    font-family: serif;
+    font-size:14px;
+    transition: 1.5s;
+}
+.section1{
+    padding: 3rem 3rem;
+    margin-left: 1rem;
+}
+.section1 h1{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom:2rem;
+}
+.section1 span{
+    font-family:serif;
+    font-weight:400;
+    font-size:27px;
+    color: #c0a483;
+}
+.color{
+    background-color: #882424;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    margin: 0 1rem;
+}
+.color1 i{
+    color: white;
+    font-size:62px ;
+    margin-bottom: 1rem;
+    border: solid 1px white;
+    border-radius: 90%;
+    padding: 3rem;
+}
+.color1 h4{
+    color: white;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+.color1 span{
+    color: white;
+    font-family: serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+.section3{
+    padding:3rem 3rem;
+    margin-left: 1rem;
+}
+.section3 h1{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:2rem;
+}
+.section3 span{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #c0a483;
+}
+.green{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/05/banner10.jpg);
+    background-position: center;
+    padding: 8%;
+    background-size: cover;
+    margin: 4rem 0;
+    text-align: center;
+}
+.brands{
+    padding: 3rem 6rem;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.brands h1{
+    font-family:serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.brands span{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #c0a483;
+}
+.card-text{
+    font-family:Marcellus, serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.green h1{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 500;
+    color: white;
+}
+.green hr{
+    width: 100%;
+    color: white;
+    border: solid 2px white;
+}
+.green span{
+    font-size:14px ;
+    font-family: serif;
+    font-weight: 500;
+    color: white;
+}
+.map {
+    padding: 1.5rem 0;
+}
+#username{
+    background-color: #2A2B2D;
+    padding: 7rem 7rem;
+    border: solid 3px #2A2B2D;
+    margin-right: 3rem;
+}
+#username i{
+    color: whitesmoke;
+    font-size: 65px;
+    margin-left: 16rem;
+    margin-bottom: 1rem;
+}
+.texticon i{
+    border: solid 2px #868686;
+    padding: 1rem;
+    color: #2A2B2D;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.texticon h3{
+    font-size: 27px;
+    font-family: serif;
+    font-weight: 500;
+    color: #2A2B2D;
+    margin-top: 1rem;
+}
+.human{
+    margin: 2rem 0;
+}
+.texticon h4{
+    font-size:16px ;
+    font-weight: 400;
+    color: #2A2B2D;
+    font-family: serif;
+    margin-top: 1px;
+}
+.sign10{
+    background-color: #2A2B2D;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 5rem;
+}
+#submit10{
+    background-color: #C0A483;
+    border: solid 2px #C0A483;
+    padding: 1rem 6rem;
+    color: white;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#submit10:hover{
+    background-color: burlywood;
+}
+#username h2{
+    font-family: serif;
+    color: whitesmoke;
+    font-size:40px;
+    font-weight: 400;
+    margin-left: 9rem;
+    margin-bottom: 5rem;
+}
+.username7 h2{
+    font-family: serif;
+    font-size:24px ;
+    font-weight: 400;
+    color: #2A2B2D;
+    margin-top: 3rem;
+}
+.username7{
+    margin-left: 2rem;
+}
+.username7 span{
+    color:#868686;
+    margin-top: 3rem;
+    font-family: serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+#username a{
+    border: solid 2px black;
+    padding: 1rem 11.8rem;
+    color:white;
+    background-color: black;
+    transition: 1.5s;
+    margin-top: 2rem;
+}
+#username a:hover{
+    background-color: #C0A483;
+    border: solid 2px #C0A483;
+    transition: 1.5s;
+}
+#username input{
+    background-color: whitesmoke;
+    border: solid 1px whitesmoke;
+    padding: 0.5rem 2rem;
+}
+#username5 input{
+    background-color: whitesmoke;
+    border: solid 1px whitesmoke;
+    padding: 5rem 10rem;
+    margin-top: 1rem;
+    margin-left: 2px;
+}
+.image a:hover{
+    background-color: #500709;
+    border:solid 2px #500709;
+    color: white;
+    transition: 1.5s;
+}
+.human{
+    display: flex;
+    justify-content: space-between;
+}
+.green i{
+    font-size: 65px;
+    color: white;
+    margin-bottom: 1rem;
+}
+.green p{
+    font-family: serif;
+    font-size: 17px;
+    font-weight:500 ;
+    color: white;
+}
+#footer{
+    background-color: #f6f6f6;
+    padding: 4rem;
+}
+.header9{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
+    background-attachment: fixed;
+}
+.header10{
+    margin-bottom: 17rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.header11{
+    text-align: center;
+    color: white;
+    margin-bottom: 10rem;
+}
+.header11 h4{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.header11 h1{
+    font-family: serif;
+    font-weight:500 ;
+    font-size: 60px;
+}
+.header11 i{
+    font-size: 35px;
+}
+.family{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/05/banner9.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 6% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.family2 img{
+    width: 90%;
+}
+.family3{
+    font-size: 23px;
+}
+.family3 h4{
+    font-family: serif;
+    font-size: 17px;
+    font-weight:500 ;
+}
+.family3 h3{
+    font-family: serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+.family3 span{
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #868686;
+}
+.team{
+    padding: 3rem 3rem;
+    margin-left: 2rem;
+}
+.card-text2{
+    font-size: 19px;
+    font-family: serif;
+    font-weight: 400;
+}
+#team4{
+    font-size: 17px;
+    font-family: serif;
+    font-weight: 600;
+    color: #c0a483;
+}
+.team h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.dark-red{
+    background-color: #500709;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+.happy{
+    background-color: #FAF4EE;
+    padding: 3rem;
+    margin: 3rem 0;
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+}
+.client h4{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 1rem;
+}
+.client p{
+    font-family: serif;
+    font-size: 16px;
+    color: #868686;
+    font-weight: 400;
+}
+.client img{
+    border: solid 1px #868686;
+    border-radius: 70%;
+    margin-bottom: 1rem;
+}
+.client span{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
+.client2 h4{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 1rem;
+}
+.client2 p{
+    font-family: serif;
+    font-size: 16px;
+    color: #868686;
+    font-weight: 400;
+}
+.client2 img{
+    border: solid 1px #868686;
+    border-radius: 70%;
+    margin-bottom: 1rem;
+}
+.client2 span{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
+.client3 h4{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 1rem;
+}
+.client3 p{
+    font-family: serif;
+    font-size: 16px;
+    color: #868686;
+    font-weight: 400;
+}
+.client3 img{
+    border: solid 1px #868686;
+    border-radius: 70%;
+    margin-bottom: 1rem;
+}
+.client3 span{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
+.happy h1{
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.brands7{
+    padding: 3rem 6rem;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.sign{
+    background-color:#C0A483;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.sign2 i{
+    color: white;
+    font-size: 89px;
+}
+.sign3 h3{
+    font-size: 29px;
+    font-family: serif;
+    font-weight: 500;
+    color: white;
+}
+.sign3 h4{
+    font-size: 23px;
+    font-family: serif;
+    font-weight: 400;
+    color: white;
+}
+.sign4 input{
+    padding: 2rem 3rem;
+}
+.sign4 a{
+    border: solid 3px black;
+    background-color: black;
+    padding: 1rem 6rem;
+    color: white;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sign4 a:hover{
+    background-color: #C0A483;
+}
+#footer2{
+    background-color: #f6f6f6;
+    padding: 4rem;
+}
+#shop{
+    background-color: black;
+    padding: 17px;
+    text-align: center;
+}
+.left a img{
+    width: 50%;
+}
+
+.right i{
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    margin-right: 3rem;
+}
+.right h3{
+    color: white;
+    font-size: 23px;
+    font-family: serif;
+    font-weight: 400;
+    margin-right: 2rem;
+}
+
+.right i span{
+    background-color:black;
+    color:white;
+    padding: 1px 2px;
+    position: absolute;
+    top: -10px;
+    border-radius: 100%;
+}
+table img{
+    width: 50%;
+}
+.nav span{
+    border: solid 2px #C0A483;
+    background-color: #C0A483;
+    border-radius: 100%;
+    padding: 3px 3px;
+    top: -10px;
+}
+#arrow{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: solid 2px #C0A483;
+    background-color: #C0A483;
+    font-size: 24px;
+    color: white;
+    border-radius: 50%;
+    padding: 9px;
+}
+#alert{
+    background: burlywood;
+    width: 23%;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    transition: .5s;
+    right: -500px;
+}
+#alert p{
+    font-weight: bold;
+    color: #fff;
+}
+.card-title7{
+    font-family: serif;
+    font-size: 21px;
+    font-weight: 300;
+}
+.card-text7{
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #c0a483;
+}
+#footer7{
+    margin-top: 2rem;
+    background-color: #f6f6f6;
+    padding: 4rem;
+}
+.contact-us{
+    color:#868686;
+    cursor: pointer;
+}
+#icon10{
+    color: #C0A483;
+    font-size: 30px;
+    cursor: pointer;
+}
